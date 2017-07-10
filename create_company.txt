@@ -1,0 +1,9 @@
+create table company (
+symbol varchar(254) primary key,
+name varchar(254),
+market_cap varchar(50),
+ipo_year smallint,
+sector varchar(254),
+industry varchar(254)
+)
+
